@@ -12,74 +12,159 @@
 </head>
 
 <body>
-    <h1>Choose something</h1>
+    <header>
+        <h1>Choose something</h1>
+        <nav aria-label="primary-navigator">
+            <ul>
+                <li>
+                    <a href="#headings"> Headings</a>
+                </li>
+                <li>
+                    <a href="#lists"> Lists</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#headings"> Headings</a>
-            </li>
-            <li>
-                <a href="#lists"> Lists</a>
-            </li>
-        </ul>
-    </nav>
-    <hr>
+    <main>
+        <h1>First Heading!</h1>
+        <hr>
 
-    <h1>First Heading!</h1>
-    <hr>
-
-    <h2>Second Heading</h2>
-    <p>This is my web page.
-        <br>&nbsp;&nbsp;&nbsp; one line
-        <br>&nbsp;&nbsp;&nbsp; second line
-        <br>&nbsp;&nbsp;&nbsp; third line
-    </p>
-
-    <h3>Third heading</h3>
-    <p>This is my <em>web page</em>.</p>
-    <figure>
-        <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="Learning HTML5" width="200" height="200">
-        <figcaption>This is HTML LOGO</figcaption>
-    </figure>
-    <hr>
-    <section id="headings">
         <h2>Second Heading</h2>
-        <p>This is my web page.</p>
+        <p>This is my web page.
+            <br>&nbsp;&nbsp;&nbsp; one line
+            <br>&nbsp;&nbsp;&nbsp; second line
+            <br>&nbsp;&nbsp;&nbsp; third line
+        </p>
 
         <h3>Third heading</h3>
-        <p>This is my <strong>page.</strong>
-            <br> This is for abbreviations <abbr title="Laughing out Loud">
-                <a
-                    href="https://www.google.com/search?q=LOL&rlz=1C1CHBF_enIN983IN983&oq=LOL&aqs=chrome..69i57j46i131i433i512j69i60l2j69i61j69i60l3.1041j0j7&sourceid=chrome&ie=UTF-8">
-                    LOL
-                </a>
-            </abbr>
-        </p>
-    </section>
+        <p>This is my <em>web page</em>.</p>
+        <figure>
+            <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="Learning HTML5" width="200" height="200">
+            <figcaption>This is HTML LOGO</figcaption>
+        </figure>
+        <hr>
+        <article id="headings">
+            <h2>Second Heading</h2>
+            <p>This is my web page.</p>
 
+            <h3>Third heading</h3>
+            <p>This is my <strong>page.</strong>
+                <br> This is for abbreviations <abbr title="Laughing out Loud">
+                    <a
+                        href="https://www.google.com/search?q=LOL&rlz=1C1CHBF_enIN983IN983&oq=LOL&aqs=chrome..69i57j46i131i433i512j69i60l2j69i61j69i60l3.1041j0j7&sourceid=chrome&ie=UTF-8">
+                        LOL
+                    </a>
+                </abbr>
+            </p>
+            <aside>
+                <details>
+                    <summary>Guess What Am I <mark>Doing</mark>?</summary>
+                    <p>I am currently learning HTML5 </p>
+                </details>
+            </aside>
+
+            <br>
+            <table>
+                <caption>Daily Schedule</caption> <!-- what the table is about -->
+                <thead> <!-- does nothing but tells it is table heading -->
+                    <tr>
+                        <th>&nbsp;</th> 
+                        <th scope="col">Time</th> <!-- headings in table semantic tags, scope just helps betters understand semantic tag -->
+                        <th scope="col">Activity</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- tells about table body semantic tags-->
+                    <tr>
+                        <!-- table row -->
+                        <th scope="row">Morning</th>
+                        <td>
+                            <!-- table data -->
+                            <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                        </td>
+
+                        <td>
+                            <!-- table data -->
+                            Learn HTML
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- table row -->
+                        <th scope="row">Break</th>
+                        <td>
+                            <!-- table data -->
+                            <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                        </td>
+
+                        <td>
+                            <!-- table data -->
+                            Eat Lunch
+                        </td>
+                    </tr>
+                    <tr>
+                        <!-- table row -->
+                        <th scope="row">Afternoon</th>
+                        <td>
+                            <!-- table data -->
+                            <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                        </td>
+
+                        <td>
+                            <!-- table data -->
+                            Study other things.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Evening</th>
+                        <td rowspan="2">All other times</td>
+                        <td>Free Time</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Night</th>
+                        <td>Sleep</td>
+                    </tr>
+                </tbody>
+                <tfoot> <!-- does nothing just tells table footer, semantic tags-->
+                    <tr>
+                        <td colspan="3">This is my time table</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+
+        </article>
+
+        <hr>
+
+        <article id="lists">
+            <h2>LISTS</h2>
+            <p>This is my web page.</p>
+            <ol>
+                <li>one line</li>
+                <li>second line</li>
+                <li>third line</li>
+            </ol>
+            <dl>
+                <dt>North Pole
+                </dt>
+                <dd>
+                    It is cold
+                </dd>
+            </dl>
+        </article>
+    </main>
     <hr>
 
-    <section id="lists">
-        <h2>LISTS</h2>
-        <p>This is my web page.</p>
-        <ol>
-            <li>one line</li>
-            <li>second line</li>
-            <li>third line</li>
-        </ol>
-        <dl>
-            <dt>North Pole
-            </dt>
-            <dd>
-                It is cold
-            </dd>
-        </dl>
-    </section>
-    &lt;&lt;&lt; &copy; <a href="about.html">Naman Agrawal</a> &gt;&gt;&gt;
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+    <footer>
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Naman Agrawal</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
 </body>
 
 </html>
