@@ -1,0 +1,118 @@
+<!--https://github.com/gitdagray/html_course-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- character encoding -->
+    <meta name="author" content="Naman">
+    <meta name="description" content="This page contains all the things I am learning in HTML">
+
+    <title>My First Web Page</title> <!-- Written on the tab -->
+    <!-- <link rel="icon" href="html.png" type="image/x-icon">  this line links things with our html page-->
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <!-- the code below is css just added to make page dark you can avoid it for now -->
+    <!-- 
+            <style> 
+                html{
+                    font-size: 22px; 
+                }
+                body{
+                    background-color: #333;
+                    color: whitesmoke;
+                }
+            </style> 
+            now removing it and moving to css file and linking css file with this html file
+        -->
+</head>
+
+<body>
+    <h1>Choose something</h1>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#headings"> Headings</a> <!-- jumps to headings section -->
+            </li>
+            <li>
+                <a href="#lists"> Lists</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <!-- extra spaces are neglected -->
+
+    <!-- everything here is visible on the web page-->
+    <h1>First Heading!</h1> <!-- Heading of page -->
+
+    <hr>
+    <!--horizontal rule-->
+
+    <h2>Second Heading</h2> <!-- Heading of page -->
+    <p>This is my web page.
+        <br>&nbsp;&nbsp;&nbsp; one line
+        <!--line break inside paragraph to change the lines in a paragraph-->
+        <br>&nbsp;&nbsp;&nbsp; second line
+        <br>&nbsp;&nbsp;&nbsp; third line
+    </p> <!-- Paragraph -->
+
+    <h3>Third heading</h3> <!-- Heading of page -->
+    <p>This is my <em>web page</em>.</p> <!-- Paragraph, em to give emphasis to some content it becomes italic-->
+    <figure> <!-- to add some caption to the image -->
+        <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="Learning HTML5" width="200" height="200"> <!--image tags,  alt displays if file not found, title tag shows on hovering mouse, width and height can be changed-->
+        <figcaption>This is HTML LOGO</figcaption>
+    </figure>
+    <hr>
+    <section id="headings">
+        <!--to jump to different sections-->
+        <h2>Second Heading</h2> <!-- Heading of page -->
+        <p>This is my web page.</p> <!-- Paragraph -->
+
+        <h3>Third heading</h3> <!-- Heading of page -->
+        <p>This is my <strong>page.</strong> <!-- Paragraph, strong to give very much emphasis it gets bold -->
+            <br> This is for abbreviations <abbr title="Laughing out Loud">
+                <a
+                    href="https://www.google.com/search?q=LOL&rlz=1C1CHBF_enIN983IN983&oq=LOL&aqs=chrome..69i57j46i131i433i512j69i60l2j69i61j69i60l3.1041j0j7&sourceid=chrome&ie=UTF-8">
+                    LOL
+                </a> <!-- links attached -->
+            </abbr>
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- LISTS -->
+    <section id="lists">
+        <h2>LISTS</h2> <!--section should have AL1 heading-->
+        <p>This is my web page.</p>
+        <ol>
+            <!--ordered list-->
+            <li>one line</li>
+            <!--line break inside paragraph to change the lines in a paragraph-->
+            <li>second line</li>
+            <li>third line</li>
+        </ol>
+        <dl>
+            <!-- description list-->
+            <dt>North Pole
+                <!-- description term-->
+            </dt>
+            <dd>
+                <!-- desc details -->It is cold
+            </dd>
+        </dl>
+    </section>
+    &lt;&lt;&lt; &copy; <a href="about.html">Naman Agrawal</a> &gt;&gt;&gt;
+    <p>
+        <a href="#">Back to top</a> <!-- move to top -->
+    </p>
+</body>
+
+</html>
+
+
+
+<!-- <address></address> to give address of something italic -->
+<!-- strong em are inline elements -->
+<!-- &nbsp is for '' char single space-->
+<!-- how to insert < or > symbol? -->
