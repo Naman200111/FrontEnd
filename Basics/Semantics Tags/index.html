@@ -12,74 +12,90 @@
 </head>
 
 <body>
-    <h1>Choose something</h1>
+    <!-- sematic tags -->
+    <header> <!-- to say it is the header of the main body more than one header is possible-->
+        <h1>Choose something</h1>
+        <nav aria-label="primary-navigator"> <!-- gave name to identify nav tag-->
+            <ul>
+                <li>
+                    <a href="#headings"> Headings</a>
+                </li>
+                <li>
+                    <a href="#lists"> Lists</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#headings"> Headings</a>
-            </li>
-            <li>
-                <a href="#lists"> Lists</a>
-            </li>
-        </ul>
-    </nav>
-    <hr>
+    <main> <!-- always one main section possible -->
+        <h1>First Heading!</h1>
+        <hr>
 
-    <h1>First Heading!</h1>
-    <hr>
-
-    <h2>Second Heading</h2>
-    <p>This is my web page.
-        <br>&nbsp;&nbsp;&nbsp; one line
-        <br>&nbsp;&nbsp;&nbsp; second line
-        <br>&nbsp;&nbsp;&nbsp; third line
-    </p>
-
-    <h3>Third heading</h3>
-    <p>This is my <em>web page</em>.</p>
-    <figure>
-        <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="Learning HTML5" width="200" height="200">
-        <figcaption>This is HTML LOGO</figcaption>
-    </figure>
-    <hr>
-    <section id="headings">
         <h2>Second Heading</h2>
-        <p>This is my web page.</p>
+        <p>This is my web page.
+            <br>&nbsp;&nbsp;&nbsp; one line
+            <br>&nbsp;&nbsp;&nbsp; second line
+            <br>&nbsp;&nbsp;&nbsp; third line
+        </p>
 
         <h3>Third heading</h3>
-        <p>This is my <strong>page.</strong>
-            <br> This is for abbreviations <abbr title="Laughing out Loud">
-                <a
-                    href="https://www.google.com/search?q=LOL&rlz=1C1CHBF_enIN983IN983&oq=LOL&aqs=chrome..69i57j46i131i433i512j69i60l2j69i61j69i60l3.1041j0j7&sourceid=chrome&ie=UTF-8">
-                    LOL
-                </a>
-            </abbr>
-        </p>
-    </section>
+        <p>This is my <em>web page</em>.</p>
+        <figure>
+            <img src="img/html_logo_300x300.png" alt="HTML5 LOGO" title="Learning HTML5" width="200" height="200">
+            <figcaption>This is HTML LOGO</figcaption>
+        </figure>
+        <hr>
+        <article id="headings"> <!-- sections are generally parts within a common topic, here section should be article as headings section and lists sections are not related, they are both articles-->
+            <h2>Second Heading</h2>
+            <p>This is my web page.</p>
 
+            <h3>Third heading</h3>
+            <p>This is my <strong>page.</strong>
+                <br> This is for abbreviations <abbr title="Laughing out Loud">
+                    <a
+                        href="https://www.google.com/search?q=LOL&rlz=1C1CHBF_enIN983IN983&oq=LOL&aqs=chrome..69i57j46i131i433i512j69i60l2j69i61j69i60l3.1041j0j7&sourceid=chrome&ie=UTF-8">
+                        LOL
+                    </a>
+                </abbr>
+            </p>
+            <aside> <!-- semantic tags, aside, details, summary, mark(to highlight text), time attribute(not mentioned here)-->
+                <details>
+                    <summary>Guess What Am I <mark>Doing</mark>?</summary>
+                    <p>I am currently learning HTML5 </p>
+                </details>
+            </aside>
+        </article>
+
+        <hr>
+
+        <article id="lists">
+            <h2>LISTS</h2>
+            <p>This is my web page.</p>
+            <ol>
+                <li>one line</li>
+                <li>second line</li>
+                <li>third line</li>
+            </ol>
+            <dl>
+                <dt>North Pole
+                </dt>
+                <dd>
+                    It is cold
+                </dd>
+            </dl>
+        </article>
+    </main>
     <hr>
 
-    <section id="lists">
-        <h2>LISTS</h2>
-        <p>This is my web page.</p>
-        <ol>
-            <li>one line</li>
-            <li>second line</li>
-            <li>third line</li>
-        </ol>
-        <dl>
-            <dt>North Pole
-            </dt>
-            <dd>
-                It is cold
-            </dd>
-        </dl>
-    </section>
-    &lt;&lt;&lt; &copy; <a href="about.html">Naman Agrawal</a> &gt;&gt;&gt;
-    <p>
-        <a href="#">Back to top</a>
-    </p>
+    <footer> <!-- to maintain footer, can be more than 1-->
+        <p>
+            &lt;&lt;&lt; &copy; <a href="about.html">Naman Agrawal</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
 </body>
 
 </html>
