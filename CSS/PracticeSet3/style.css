@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 1px;
+}
+header{
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+}
+.content{
+    background-color: red;
+    color: yellow;
+    margin: 5px;
+    /* box-sizing: border-box; */
+    box-sizing: content-box;
+}
+footer {
+    background-color: black;
+    color: white;
+    margin: 7px;
+}
