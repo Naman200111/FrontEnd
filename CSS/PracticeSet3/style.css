@@ -11,8 +11,8 @@ header{
     background-color: red;
     color: yellow;
     margin: 5px;
-    /* box-sizing: border-box; */
-    box-sizing: content-box ;
+    /* box-sizing: border-box;  take the border of complete box, dimesions include padding and border also */
+    box-sizing: content-box ; /* whatever be the padding it should be applied on content only */
 }
 footer {
     background-color: black;
