@@ -1,0 +1,27 @@
+.nav{
+    background-color: darkblue;
+    color: white;
+}
+.main{
+    background-color: darkred;
+}
+.image{
+    width: 350px;
+    height: 3050px; 
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-attachment: scroll;   
+}
+
+.box{ 
+    width: 350px;
+    height: 1050px;
+    background-color: purple;
+    background-image: url('image.jpg');
+    background-attachment: scroll; 
+    background-repeat: no-repeat;
+}
+.final{
+    background: blue url('image.jpg') /*no-repeat*/ fixed left top;
+}
