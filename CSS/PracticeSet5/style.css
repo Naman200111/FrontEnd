@@ -1,0 +1,40 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+body{
+    height: 4444px;
+}
+.navbar{
+    height: 50vh;
+    width: 50vw;
+    background-color: red;
+}
+li{
+    /* list-style: square; */
+    /* list-style: circle; */
+    /* list-style: circle inside; */
+    list-style: circle outside;
+    /* list-style: circle outside url('image.png');  to show image inside bullets */
+}
+ul{
+    height: 100px;
+    background-color: purple;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.navsticky{
+    height: 30vh;
+    width: 20vw;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+    /* static means static */
+    /* relative means top bottom left right z index will work */
+    /* absolute means element is removed and positioned according to its first non static member, top bottom left right z index will work */
+    /* fixed is same as absolute, but positioning occurs wrto browser window */
+    /* position should be wrto user scroll position */
+}
+
+
