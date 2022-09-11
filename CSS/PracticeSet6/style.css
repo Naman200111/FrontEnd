@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    height: 20vh;
+    width: 20vw;
+    background-color: red;
+    /* float: right; */
+    float: left;
+    color: white;
+    /* clear does not works (here) on elements which are after in the page */
+    /* clear clears only the boxes before the curr box */
+}
+.box2{
+    height: 20vh;
+    width: 20vw;
+    background-color: blue;
+    float: right;
+    color: white;
+    clear: left;
+    /* clear: right; */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.b1{
+    height: 20vh;
+    width: 20vw;
+    background-color: red;
+    color: white;
+}
+.b2{
+    padding: 20px;
+    height: 20vh;
+    width: 20vw;
+    background-color: blue;
+    color: white;
+}
+ul{
+    height: 22px;
+    padding: 39px;
+    color: white;
+    font-size: 20;
+    background-color: black;
+}
+li{
+    display: inline;
+}
+.bb1{
+    margin: 35px;
+    padding: 15px;
+    height: 50vh;
+    width: 40vw;
+    background-color: red;
+    color: white;
+}
+.bb2{
+    margin: 35px;
+    padding: 15px;
+    height: 50vh;
+    width: 40vw;
+    background-color: blue;
+    color: white;
+}
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.Body{
+    height: 50vh;
+    /* background-repeat: no-repeat; */
+    background-image: url('image.jpg');
+    /* background-size: cover; */
+}
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+.bbb1{
+    margin: 50px;
+    height: 50vh;
+    width: 20vw;
+    background-color: red;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+}
+.bbb2{
+    height: 50vh;
+    margin: 50px;
+    width: 20vw;
+    background-color: blue;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+}
+.bbb3{
+    margin: 50px;
+    height: 50vh;
+    width: 20vw;
+    background-color: green;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+}
+.image{
+    margin: 30px;
+    background-image: url('image.jpg');
+    height: 25px;
+    width: 25px;
+}
