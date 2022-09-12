@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: grid;
+    background-color: black;
+}
+.box {
+    border: 2px solid white;
+    color: yellow;
+}

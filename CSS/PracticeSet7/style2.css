@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+}
+@media screen and (max-width: 1520px) {
+    .con{
+        background-color: red;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .con{
+        background-color: yellow;
+    }
+}
