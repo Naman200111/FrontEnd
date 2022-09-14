@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.progressbar{
+    width: 0px;
+    height: 10px;
+    background-color: red;
+    animation-name: progressbar_Animator;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes progressbar_Animator {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100vw;
+    }
+}

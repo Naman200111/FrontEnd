@@ -1,0 +1,19 @@
+.bar{
+    background-color: black;
+    height: 100px;
+    width: 100vw;
+}
+.image{
+    height: 180px;
+    width: 320px;
+    background-image: url('image.jpg');
+    animation: rotateImage 2s ease-in 0s infinite;
+}
+@keyframes rotateImage {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
