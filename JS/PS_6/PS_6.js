@@ -4,7 +4,7 @@ while(check) {
     age = Number.parseInt(age);
     if(age<0) {
         console.error("Enter valid age");
-        continue;
+        continue;   
     }
     
     if(age >= 18) 
