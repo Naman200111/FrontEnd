@@ -24,10 +24,6 @@ header{
     justify-content: center; 
     height: 50px;
 }
-footer{
-    height: 350px;
-    background-color: black;
-}
 .leftside{
     display: flex;
 }
@@ -115,6 +111,7 @@ footer{
 }
 .abstract{
     display: flex;
+    width: 585px;
 }
 .para{
     margin: 10px 0px 10px 10px;
@@ -126,8 +123,67 @@ footer{
 }
 .manage_acc{
     display: flex;
+    width: 585px;
 }
 .heading {
     margin: 10px;
     font-size: 30px;
+}
+.text a{
+    text-decoration: none;
+    font-size: larger;
+}
+footer{
+    display: flex;
+    height: 350px;
+    background-color: black;
+    /* position: relative; */
+}
+.col{
+    color: white;
+    margin: 60px 0px 60px 105px;
+    font-size: larger;
+}
+.col ul {
+    list-style-type: none;
+}
+.col a {
+    color: white;
+    text-decoration: none;
+}
+.btom_rt{
+    color: white;
+    margin: 150px 50px 50px 400px;
+    font-size: larger;
+}
+.image1{
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+}   
+.helpButton{
+    display: flex;
+    height: 40px;
+    width: 95px;
+    border-radius: 120px;
+    background-color: #4C5FD5;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.content{
+    padding:  10px 0px 0px 0px;
+}
+.content a{
+    padding:  10px 0px 0px 0px;
+    text-decoration: none;
+    color: white
+}
+.helpques{
+    padding:  10px;
+    height: 18px;
+    width: 18px;
+    margin-left: 6px;
 }
