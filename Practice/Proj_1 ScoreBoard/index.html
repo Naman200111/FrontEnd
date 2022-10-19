@@ -1,5 +1,6 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <title>SCOREBOARD</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -9,19 +10,19 @@
                 <h3>TEAM B</h3>
             </div>
             <div class="scores">
-                <div class="score1"><div id="s1">0</div></div>
-                <div class="score2"><div id="s2">0</div></div>
+                <div id="s1">0</div>
+                <div id="s2">0</div>
             </div>
             <div class="increments">
-                <div class="increment1">
-                    <div class="box_l1" onclick="plus1L()"><div class="cl1">+1</div></div>
-                    <div class="box_l2" onclick="plus2L()"><div class="cl2">+2</div></div>
-                    <div class="box_l3" onclick="plus3L()"><div class="cl3">+3</div></div>
+                <div class="increment">
+                    <button class="box" onclick="plus1L()">+1</button>
+                    <button class="box" onclick="plus2L()">+2</button>
+                    <button class="box" onclick="plus3L()">+3</button>
                 </div>
-                <div class="increment2">
-                    <div class="box_r1" onclick="plus1R()"><div class="cr1">+1</div></div>
-                    <div class="box_r2" onclick="plus2R()"><div class="cr2">+2</div></div>
-                    <div class="box_r3" onclick="plus3R()"><div class="cr3">+3</div></div>
+                <div class="increment">
+                    <button class="box" onclick="plus1R()">+1</button>
+                    <button class="box" onclick="plus2R()">+2</button>
+                    <button class="box" onclick="plus3R()">+3</button>
                 </div>
             </div>
             <button class="reset" onclick="reset()">RESET</button>

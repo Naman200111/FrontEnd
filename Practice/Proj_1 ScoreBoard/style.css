@@ -20,26 +20,22 @@ body{
     justify-content: space-around;
     user-select: none;
 }
-.score1{
-    background-color: black;
-    height: 120px;
-    width: 155px;
-    border-radius: 5px;
-}
 #s1{
+    background-color: black;
+    height: 70px;
+    width: 80px;
+    border-radius: 5px;
     color: F94F6D;
     font-size: 70px;
     font-family: Cursed Timer ULiL, sans-serif;
     padding: 25px;
     padding-left: 55px;
 }
-.score2{
-    background-color: black;
-    height: 120px;
-    width: 155px;
-    border-radius: 5px;
-}
 #s2{
+    background-color: black;
+    height: 70px;
+    width: 80px;
+    border-radius: 5px;
     color: F94F6D;
     font-size: 70px;
     font-family: Cursed Timer ULiL, sans-serif;
@@ -50,19 +46,13 @@ body{
     display: flex;
     height: 100px;
 }
-.increment1{
+.increment{
     display: flex;
     width: 255px;
     height: 45px;
     margin-left: 59px;
 }
-.increment2{
-    display: flex;
-    width: 255px;
-    height: 45px;
-    margin-left: 60px;
-}
-.box_l1{
+.box{
     width: 45px;
     height: 45px;
     margin: 5px;
@@ -70,108 +60,12 @@ body{
     border-radius: 5px;
     border: 1px solid lightblue;
     background-color: 1B244A;
-}
-.cl1{
-    color: 9AABD8;
     font-family: Cursed Timer ULiL, sans-serif;
-    padding: 13px;
-    user-select: none;
-}
-.box_l2{
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    margin-top: 30px;
-    border-radius: 5px;
-    border: 1px solid lightblue;
-    background-color: 1B244A;
-}
-.cl2{
     color: 9AABD8;
-    font-family: Cursed Timer ULiL, sans-serif;
-    padding: 13px;
-    user-select: none;
-}
-.box_l3{
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    margin-top: 30px;
-    border-radius: 5px;
-    border: 1px solid lightblue;
-    background-color: 1B244A;
-}
-.cl3{
-    color: 9AABD8;
-    font-family: Cursed Timer ULiL, sans-serif;
-    padding: 13px;
-    user-select: none;
-}
-.box_r1{
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    margin-top: 30px;
-    border-radius: 5px;
-    border: 1px solid lightblue;
-    background-color: 1B244A;
-}
-.cr1{
-    color: 9AABD8;
-    font-family: Cursed Timer ULiL, sans-serif;
-    padding: 13px;
-    user-select: none;
-}
-.box_r2{
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    margin-top: 30px;
-    border-radius: 5px;
-    border: 1px solid lightblue;
-    background-color: 1B244A;
-}
-.cr2{
-    color: 9AABD8;
-    font-family: Cursed Timer ULiL, sans-serif;
-    padding: 13px;
-    user-select: none;
-}
-.box_r3{
-    width: 45px;
-    height: 45px;
-    margin: 5px;
-    margin-top: 30px;
-    border-radius: 5px;
-    border: 1px solid lightblue;
-    background-color: 1B244A;
-}
-.cr3{
-    color: 9AABD8;
-    font-family: Cursed Timer ULiL, sans-serif;
-    padding: 13px;
-    user-select: none;
-}
-
-.cl1:hover{
-    cursor: pointer;
-}
-.cl2:hover{
-    cursor: pointer;
-}
-.cl3:hover{
-    cursor: pointer;
-}
-.cr1:hover{
-    cursor: pointer;
-}
-.cr2:hover{
-    cursor: pointer;
-}
-.cr3:hover{
-    cursor: pointer;
+    font-size: 17px;
 }
 .reset{
+    display: block;
     background-color: 1B244A;
     border: 1px solid lightblue;
     border-radius: 5px;
